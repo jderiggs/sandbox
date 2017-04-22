@@ -1,0 +1,778 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Roboto:400,900'); /* Fonts taken from Google Fonts https://fonts.google.com/ */
+
+<<<<<<< HEAD
+
+html{
+    margin: 0;
+    font-size:62.5%;
+    z-index: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+    background-image:url(../images/background.png);
+    background position:0px 0px;
+    background-repeat: repeat;  
+    animation: backgroundShift 50s linear infinite;
+}
+
+@-webkit-keyframes backgroundShift {
+    from {background-position: 0 0;}
+    to {background-position: -100%;}
+     /* Animation making the background move */
+}
+
+#headerbar{
+    height: 1.5rem;
+    background: #FBAF42;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+li{
+    font-family: "Roboto"; 
+}
+
+h1{
+    font-family: "Roboto";
+}
+
+h2{
+    font-family: "Roboto";
+}
+
+p{
+    font-family: "Roboto"; 
+}
+
+#headerbar li{
+    font-family: "Roboto";
+    list-style: none;
+    font-size: 1rem;
+    height: 2.5rem;
+    float:right;
+    list-style:none;
+    background-color:none;
+    color:white;
+    line-height: 2.5rem;
+    margin-top: -1rem;
+
+}
+
+#headerbar li a{
+    color:white;
+}
+
+#headerbar a{
+    padding: 0 1rem;
+    top: 50%;
+}
+
+#headerbar li:hover{
+    background-color: #AA1F29;
+}
+
+a{
+    display: block;
+}
+
+#headerbar2 h1{
+    display: none;
+    color:white;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 2.5rem;
+}
+
+#headerbar2 {
+    height: 8rem;
+    background: #212222;
+    position: relative;
+}
+
+.logo{
+    margin: 0, auto;
+    display: inline-block;
+}
+
+#headerbar h1{
+    display: none;
+    
+}
+
+#headerbar2 p{
+    float:right;
+    color: white;
+    text-align: right;
+    padding-top: 2rem;
+}
+
+#headerbar3 {
+    top: -1rem;
+    height: 3rem;
+    position: relative;
+    background: #C52228;
+}
+
+#headerbar3 li{
+    font-family: "Roboto";
+    display:block;
+    text-align: center;
+    list-style: none;
+    font-size: 1.5rem;
+    height: 3rem;
+    list-style:none;
+    background-color:none;
+    color:white;
+    line-height: 3rem;
+    padding: 0;
+    float:left;
+    width:33.33%;
+    font-weight: 300;
+}
+
+
+#headerbar3 li a{
+    padding: 0;
+    color:white;
+}
+
+#headerbar3 a:hover{
+    background-color: #AA1F29;
+}
+
+#headerbar3 .desktop-nav{
+    margin-left: 0;
+}
+
+
+#pbackground1{
+    margin-top: 4rem;
+    position: relative;
+    background-color: #212222;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 1.5rem;
+    overflow: hidden
+    
+}
+
+#images{
+    text-align: center;
+}
+
+.spring {
+    display: inline-block;
+    text-align: center;
+    margin-right: auto;
+    background: url(http://beerfestival.ca/wp-content/uploads/2017/03/Sunday-Web-1.jpg);
+    background-size: 250px;
+    width: 250px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+.spring > header {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center
+}
+
+.spring > header::after {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.50)
+}
+.spring > header > h3 {
+    font-size: 1.3rem;
+    margin: 0;
+    color: white;
+    position: relative;
+    z-index: 1;
+    font-weight: 900;
+}
+
+.spring2 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(http://beerfestival.ca/wp-content/uploads/2017/03/Sunday-Web-1.jpg);
+    background-size: 250px;
+    width: 250px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+.spring2 > header {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center
+}
+
+.spring2 > header::after {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.50)
+}
+.spring2 > header > h3 {
+    font-size: 1.3rem;
+    margin: 0;
+    color: white;
+    position: relative;
+    z-index: 1;
+    font-weight: 900;
+}
+
+.summer {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(http://beerfestival.ca/wp-content/uploads/2016/01/MR-TFOB-Web-ticket-1.jpg);
+    background-size: 250px;
+    width: 250px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+.summer > header {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center
+}
+
+.summer > header::after {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.50)
+}
+.summer > header > h3 {
+    font-size: 1.3rem;
+    margin: 0;
+    color: white;
+    position: relative;
+    z-index: 1;
+    font-weight: 900;
+}
+
+.summer2 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(http://beerfestival.ca/wp-content/uploads/2016/01/Sloan_Web_tic.jpg);
+    background-size: 250px;
+    width: 250px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+.summer2 > header {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center
+}
+
+.summer2 > header::after {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.50)
+}
+.summer2 > header > h3 {
+    font-size: 1.3rem;
+    margin: 0;
+    color: white;
+    position: relative;
+    z-index: 1;
+    font-weight: 900;
+}
+
+.summer3 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(http://beerfestival.ca/wp-content/uploads/2016/01/ADGypsies-Web-Ticket.jpg);
+    background-size: 250px;
+    width: 250px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+.summer3 > header {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center
+}
+
+.summer3 > header::after {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.50)
+}
+.summer3 > header > h3 {
+    font-size: 1.3rem;
+    margin: 0;
+    color: white;
+    position: relative;
+    z-index: 1;
+    font-weight: 900;
+}
+
+
+#pbackground1 a{
+    width: 7rem;
+}
+
+
+#pbackground1 h2{
+    color:white;
+    padding-top: .2rem;
+    text-align: center;
+    padding-bottom: .2rem;
+    background-color: #C52228;
+    font-family: "Fjalla One"
+}
+
+#pbackground1 p{
+    color: white;
+    margin-top: 1rem;
+    font-size:1rem;
+    width: 90%;
+    padding: 1rem 0rem 2rem 0;
+    text-align: left;
+    margin-left: 5%;
+    font-weight: 900;
+}
+
+#pbackground1 li{
+    color:white;
+    margin-left: 5%;
+}
+
+
+
+#pbackground2{
+    margin-top: 4rem;
+    position: relative;
+    background-color: #FFF;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 1.5rem;
+    overflow: hidden
+}
+
+#pencil{
+    margin-top: 1rem;
+}
+
+#profpic{
+    margin-top: 1rem;
+}
+
+#pbackground2 h2{
+    color:white;
+    padding-top: .2rem;
+    text-align: center;
+    padding-bottom: .2rem;
+    background-color: #FBAF42;
+    font-family: "Fjalla One"
+}
+
+#pbackground2 h3{
+    color:white;
+    margin-left: 2.5%;
+}
+    
+form{
+    margin: auto;
+    padding-top: 1rem;
+    width: 40%;
+}
+
+select{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+button{
+    display:block;
+    border: 1px solid green;
+    background: #337040;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: auto;
+    width: 10rem;
+    text-align: center;
+}
+
+#pbackground2 a{
+    width: 11rem;
+    padding: 1rem 0;
+}
+
+
+#pbackground2 li{
+    color:white;
+    margin-left: 5%;
+}
+
+#pbackground2 p{
+    font-family: "Roboto";
+    color: #212222;
+    margin-top: 1rem;
+    font-size:1rem;
+    width: 100%;
+    text-align: center;
+}
+
+#pbackground2 h4{
+    font-family: "Roboto";
+    color: #212222;
+    margin-top: 1rem;
+    font-size:1.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+
+.hamburgerbar{
+    display:none;
+}
+
+.closenav{
+    display:none;
+}
+
+.bannertop {
+    width: 50%;
+    align-content: center;
+    max-height: 50%;
+    position: relative;
+    margin: auto;
+    margin-top:.5rem;
+}
+
+
+#slideshowbackground {
+    position:absolute;
+    background-image:url(../images/background-1.png);
+    background position:0px 0px;
+    background-repeat: repeat;  
+    animation: backgroundShift2 50s linear infinite;
+    background-color: #212222;
+    width:100%;
+    height: 40%;
+    margin-top:-1rem;
+}
+
+@-webkit-keyframes backgroundShift2 {
+    from {background-position: 0 0;}
+    to {background-position: 100%;}
+     /* Animation making the background move */
+}
+
+#offCanvas {
+    background-color:#212222;
+    z-index: 2;
+    height: 100%;
+}
+
+#offCanvas h3{
+    text-align: center;
+    position:relative;
+    color:white;
+    margin-top: 1.5rem;
+    font-family: "Fjalla One";
+}
+
+#offCanvas p{
+    text-align: center;
+    color: white;
+}
+
+#offCanvas ul{
+    list-style: none;
+}
+
+#offCanvas .sidebar1{
+    text-align: center;
+    margin-left: 0;
+}
+
+#offCanvas a{
+    padding: .5rem 0;
+    color: #C52228;
+}
+
+#offCanvas .sidebar1 a{
+    font-family: "Roboto";
+    font-weight: 900;
+    padding: .5rem 0rem 0.5rem 2rem;
+    background-color: #333;
+    color: #C52228;
+}
+
+
+
+@media screen and (max-width: 69.5rem) {
+    
+form{
+    width: 20%;
+}
+}
+
+@media screen and (max-width: 55rem) {
+    
+form{
+    width: 20%;
+}
+    
+select{
+    text-align: center;
+    width: 60%;
+}
+
+    #pbackground1{
+        margin-top: 1.5rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #pbackground2{
+        margin-top: 3rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:35rem) {
+    
+    
+
+    
+    #headerbar li a{
+        font-size: 1rem;
+        margin-left:0rem;
+    }
+    
+    form{
+    width: 20%;
+}
+    select{
+    text-align: center;
+    width: 100%;
+}
+        #headerbar2{
+        margin-top: 0;
+        height: 8rem;
+    }
+    .hamburgerbar{
+        display:none;
+    }
+
+    #pbackground1{
+        margin-top: 2rem;
+    }
+    #pbackground2{
+        margin-top: 2rem;
+    }
+    
+        .bannertop{
+        display: none;
+         max-width: 100%;
+         width:100%;
+    }
+    
+}
+
+@media screen and (max-width: 30rem) {
+    
+    form{
+        width:80%;
+    }
+    
+    select{
+        text-align: center;
+        width:80%;
+    }
+    
+.bannertop{
+        display: none;
+         max-width: 100%;
+         width:100%;
+    }
+    
+    .spring{
+        margin: auto;
+        margin-top: 1rem;
+        display:inherit;
+    }
+    
+    .spring2{
+        margin: auto;
+        margin-top: 1rem;
+        display: inherit;
+    }
+    
+    .summer{
+    margin: auto;
+    margin-top: 1rem;
+    display:inherit;
+    }
+    
+    .summer2{
+        margin: auto;
+        margin-top: 1rem;
+        display: inherit;
+    }
+    
+    .summer3{
+        margin: auto;
+        margin-top: 1rem;
+        display: inherit;
+    }
+    
+    .logo{
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+        display: none;
+    }
+    
+    @-webkit-keyframes backgroundShift {
+    from {background-position: 0 0;}
+    to {background-position: -400%;}
+     /* Animation making the background move */
+}
+    
+    @-webkit-keyframes backgroundShift2 {
+    from {background-position: 0 0;}
+    to {background-position: 400%;}
+     /* Animation making the background move */
+}
+    
+    #headerbar2 h1{
+        text-align: center;
+        line-height: 3rem;
+        display:inherit;
+        font-size: 1.5rem;
+
+    }
+    #headerbar li {
+        font-size:2rem;
+        margin-left:.4rem;
+        float:left;
+        width: auto;
+        display:none;
+    }
+    #headerbar{
+        height:1rem;
+        
+    }
+    #headerbar2{
+
+        height: 4rem;
+    }
+    #headerbar3{
+        height:1rem;
+    }
+    
+    .hamburgerbar{
+        position:absolute;
+        top:1.3rem;
+        left:.5rem;
+        display:inherit;
+        font-size: 1.5rem;
+        width:1rem;
+        height: 1rem;
+        list-style: none;
+        z-index: 1;
+        clear: both;
+    }
+    
+    .hamburgerbar a{
+        color:white;
+    }
+    
+    .closenav{
+        margin-top:;
+        font-size:2rem;
+        position: relative;
+        width 2rem;
+        height: 6rem;
+        right: 0rem;
+        bottom: 3.4rem;
+        display: inherit;
+        float:right;
+        clear:both;
+    }
+ 
+    #headerbar3{
+        display: none;
+    }
+    
+    #headerbar3 li{
+        display: none;
+    }
+
+    p{
+        margin-top: 0; 
+    }
+    #pbackground1{
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    #pbackground2{
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+ 
+    
+}
+    
+@media screen and (max-width: 369px) {
+    .hamburgerbar{
+        position: absolute;
+    }
+}
